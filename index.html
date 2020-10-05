@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+		integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/uikit.min.css">
+	<script src="js/uikit.min.js"></script>
+	<script src="js/uikit-icons.min.js"></script>
+	<script src="/path/to/masonry.pkgd.min.js"></script>
+	<link rel='icon' href='assets/favicon.png' type='image/x-icon'>
+	<title>Joey Karczewski</title>
+</head>
+<body style="background-color: #E5E5E5;">
+	<section id="home">
+		<div class="container-fluid homesection">
+			<div class="container">
+				<div class="d-flex flex-row justify-content-between">
+					<div class=" p-4 my-flex-item">
+						<h3>
+							<div id="date">
+						</h3>
+					</div>
+					<div class="p-4 my-flex-item">
+						<h3>
+							VIEWS:<span id="visitor_count" data-toggle="counter-up">0</span>
+						</h3>
+					</div>
+				</div>
+			</div>
+			<div class="container app">
+				<div class="flex-row">
+					<div class="d-flex flex-row justify-content-center app">
+						<img id="bitmoji" src="assets/hi.png" alt="Header" width="250px" height="280px">
+						<h2>
+							<h2>
+								<div class="animatedtext" id="app"></div>
+							</h2>
+							<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+							<script src="script.js"></script>
+							</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="container" id="navbar">
+				<div class="d-flex flex-row justify-content-between">
+					<div class=" p-3 my-flex-item">
+						<a href="#about">
+							<h3>About Me</h3>
+						</a></div>
+					<div class=" p-3 my-flex-item">
+						<a href="#professional">
+							<h3>Professional</h3>
+						</a></div>
+					<div class="p-3 my-flex-item">
+						<a href="#projects">
+						<h3>Projects & Experiences</h3>
+						</a>
+					</div>
+					<div class="p-3 my-flex-item">
+						<a href = #contact>
+						<h3>Contact Me</h3>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<scroll-container>
+	<section id="about">
+	<scroll-page id="page-1">
+		<br>
+		<div class="uk-container">
+			<div class=" uk-margin-left">
+				<div class="uk-margin-left">
+					<div class="uk-card uk-card-default uk-child-width-1-2" uk-grid>
+						<div class="uk-card-media-left uk-cover-container">
+							<img src="assets/austria.jpg" alt="Picture of Joey" uk-cover>
+						</div>
+						<div class="uk-card-body">
+							<h2>About </h2>
+							<h4 style="border-bottom:black solid 3px; padding-bottom:45px;">
+								Joey is an aspiring tech professional currently based in Graz, Austria. He just recently
+								graduated from Wabash College with a Liberal Arts degree with a focus in German &
+								French.
+								This coming year he will be teaching English to german students in Austria, while
+								working part time with Trek10, a Cloud-Based solution company in Southbend, Indiana. In
+								his freetime
+								he likes listening to podcasts like Reply All, the Daily, and Planet Money.</h4>
+							<div class="container">
+								<h3>
+									<div class="animatedtext" id="app3"></div>
+									<img src="assets/point.png" width="150px" height="140px">
+								</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<scroll-page id="professional">
+	<section id="professional">
+		<div class="uk-container">
+			<hr class="uk-divider-icon">
+			<section uk-grid>
+				<main class="uk-width-2-3@s">
+					<div class="uk-margin">
+						<h2 class="">Experience</h2>
+						<div class="uk-card uk-card-default uk-card-body uk-margin-bottom">
+							<div class="uk-flex uk-flex-wrap uk-flex-between">
+								<div class="">
+									<h3>Cloud Engineering Intern</h3>
+								</div>
+								<div>
+									<h3 class="uk-text-muted">Trek10</h3>
+								</div>
+							</div>
+							<div class="uk-text-meta uk-margin-remove-top">
+								<span uk-icon="icon:future;ratio:.7"></span>
+								<time datetime="March 2019">February 2020</time> - Present</div>
+
+							<p> Created internal tools for the Trek10 CloudOps Team using Python, JavaScript & Retool.
+								Created documentation on the best way to monitor EKS Clusters with Datadog. Provided
+								fruitful ideas on ways to automate the onboarding process through internal applications.
+							</p>
+						</div>
+
+						<div class="uk-card uk-card-default uk-card-body uk-margin-bottom">
+							<div class="uk-flex uk-flex-wrap uk-flex-between">
+								<div class="">
+									<h3>English Teaching Assistant</h3>
+								</div>
+								<div>
+									<h3 class="uk-text-muted">Fulbright Austria</h3>
+								</div>
+							</div>
+							<div class="uk-text-meta uk-margin-remove-top">
+								<span uk-icon="icon:future;ratio:.7"></span>
+								<time datetime="March 2019">October 2020</time> - May 2021</div>
+
+							<p>In October of this year, I will educate Primary and Business School students in southern
+								Austria in the basics of English reading, writing, listening and speaking. I will be
+								these students main point of reference for American culture, and was chosen by the
+								Austrian Government for this position. </p>
+						</div>
+						<div class="uk-card uk-card-default uk-card-body uk-margin-bottom">
+							<div class="uk-flex uk-flex-wrap uk-flex-between">
+								<div class="">
+									<h3>Junior Tech Innovation Consultant</h3>
+								</div>
+								<div>
+									<h3 class="uk-text-muted">enFocus</h3>
+								</div>
+							</div>
+							<div class="uk-text-meta uk-margin-remove-top">
+								<span uk-icon="icon:future;ratio:.7"></span>
+								<time datetime="March 2019">May 2019</time> - August 2019</div>
+
+							<p>Designed and tested an informative user-friendly website for healthcare startup Healthy
+								Points, LLC: wrote a 15-page analysis  for tech consulting projects at Baugo School
+								District. Created unique color coded building blueprints separating </p>
+						</div>
+						<div class="uk-card uk-card-default uk-card-body uk-margin-bottom">
+							<div class="uk-flex uk-flex-wrap uk-flex-between">
+								<div class="">
+									<h3>Managing Consultant</h3>
+								</div>
+								<div>
+									<h3 class="uk-text-muted">CIBE </h3>
+								</div>
+							</div>
+							<div class="uk-text-meta uk-margin-remove-top">
+								<span uk-icon="icon:future;ratio:.7"></span>
+								<time datetime="March 2019">August 2017</time> - March 2020</div>
+
+							<p>Managed a team of 5 Consultants on the rebranding of Crawfordsville Regional Airport,
+								presented a business plan for an innovative application to a board of investors</p>
+						</div>
+						<div class="uk-card uk-card-default uk-card-body uk-margin-bottom">
+							<div class="uk-flex uk-flex-wrap uk-flex-between">
+								<div class="">
+									<h3>Bold Technology Consulting</h3>
+								</div>
+								<div>
+									<h3 class="uk-text-muted">Founder</h3>
+								</div>
+							</div>
+							<div class="uk-text-meta uk-margin-remove-top">
+								<span uk-icon="icon:future;ratio:.7"></span>
+								<time datetime="March 2019">January 2019</time> - May 2020</div>
+							<p>Bold Technology Consulting helped small businesses connect with their customers online.
+								Bold Tech created and managed websites, social media accounts and technologies for small
+								businesses. With 10+ clients, Bold Tech provided me with costumer relationship &
+								management skills while also giving back to the community</p>
+						</div>
+					</div>
+					<div class="uk-margin">
+						<h2>Other Experience</h2>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-body">
+								<ul uk-accordion>
+									<li class="uk-close">
+										<a class="uk-accordion-title" href="#">Registered Yoga Instructor </a>
+										<div class="uk-accordion-content">
+											<div class="uk-text-meta uk-margin-remove-top">
+												<span uk-ico n="icon:future;ratio:.7"></span>
+												<time datetime="2019">July 2018 - February 2019</time></div>
+											<p>Shared passion for mental & physical health through the voluntary
+												teaching of 100+ yoga classes with Crawfordsville community, Rishikesh,
+												India locals, German Students abroad and Wabash College Men's Swim team.
+											</p>
+										</div>
+									</li>
+									<li class="uk-close">
+										<a class="uk-accordion-title" href="#">Wabash College Swim Team </a>
+										<div class="uk-accordion-content">
+											<div class="uk-text-meta uk-margin-remove-top">
+												<span uk-ico n="icon:future;ratio:.7"></span>
+												<time datetime="2019">August 2016 - February 2019</time></div>
+											<p>Swam the 100 & 200 Backstroke, 200 Individual Medley, and 200 Freestyle
+												and Individual Medley Relay
+											</p>
+										</div>
+									</li>
+									<li>
+										<a class="uk-accordion-title" href="#">Bartender</a>
+										<div class="uk-accordion-content">
+											<div class="uk-text-meta uk-margin-remove-top">
+												<span uk-icon="icon:future;ratio:.7"></span>
+												<time datetime="2019">August 2019 - March 2020</time></div>
+											<p>Served libations to Crawfordsville patrons, maintained the bar's
+												cleanliness and controlled common-day crises in a calm and professional
+												manner</p>
+										</div>
+									</li>
+									<li>
+										<a class="uk-accordion-title" href="#">Cambridge Film Festival Technical
+											Support</a>
+										<div class="uk-accordion-content">
+											<div class="uk-text-meta uk-margin-remove-top">
+												<span uk-icon="icon:future;ratio:.7"></span>
+												<time datetime="2019">June 2019 - March 2020</time></div>
+											<p>volunteeered to watch 200+ student short films, organized and transformed
+												30,000 CSV judging data points into a streamlined Excel pivot table &
+												provided suggestions on how to improve the judging process for coming
+												years </p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</main>
+				<aside class="uk-width-1-3@s">
+					<div class="uk-margin">
+						<h2>Education</h2>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-body">
+								<ul uk-accordion>
+									<li>
+										<a class="uk-accordion-title" href="#"> Wabash College '16 - '20 Crawfordsville,
+											Indiana </a>
+										<div class="uk-accordion-content">
+											<p>Cum Laude, German Major French Minor - established a broad foundation of
+												knowledge through a distributed curriculum, focused in science and
+												humanities</p>
+										</div>
+									</li>
+									<li> <a class="uk-accordion-title" href="#">Phillips Universität, Marburg, Germany
+											2019</a>
+										<div class="uk-accordion-content">
+											<p>Studied German translation, French, and modern history while residing
+												with solely German students</p>
+										</div>
+									</li>
+									<li> <a class="uk-accordion-title" href="#">Vinyasa Yoga School Rishikesh, India</a>
+										<div class="uk-accordion-content">
+											<p>Obtained a 200-hour RYS teaching certification through a 40-day course in
+												Rishikesh India, the birthplace of yoga</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<h3>
+						<div class="animatedtext" id="app2"></div>
+					</h3>
+					<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+					<script src="script.js"></script>
+					</h3>
+					<img src="assets/professional.png" width="150px" height="150px">
+					<div class="uk-margin">
+						<h2>Skills</h2>
+						<div class="uk-card uk-card-default uk-card-body">
+							<ul uk-accordion>
+								<li class="uk-close">
+									<a class="uk-accordion-title" href="#">Web Development</a>
+									<div class="uk-accordion-content">
+										<div class="uk-flex uk-flex-wrap uk-flex-left">
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-label-success">Webflow</span>
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-label-success">Bootstrap</span>
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-label-success">UIkit</span>
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-lable-danger">WordPress</span>
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-lable-warning">Squarespace</span>
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-lable-warning">JavaScript</span>
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-label-success">HTML</span>
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-label-warning">CSS</span>
+											<span class="uk-margin-bottom uk-margin-left uk-label ">WordPress</span>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a class="uk-accordion-title" href="#">Languages</a>
+									<div class="uk-accordion-content">
+										<div class="uk-flex uk-flex-wrap uk-flex-left">
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-label-success">German
+												(5 years)</span>
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-lable-danger">French(1
+												year)</span>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a class="uk-accordion-title" href="#">Software</a>
+									<div class="uk-accordion-content">
+										<div class="uk-flex uk-flex-wrap uk-flex-left">
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-label-success">Zendesk</span>
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-lable-danger">Retool</span>
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-lable-danger">Gitlab</span>
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-lable-danger">Photoshop</span>
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-lable-danger">Canva</span>
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-lable-danger">Illustrator</span>
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-lable-warning">Excel</span>
+											<span
+												class="uk-margin-bottom uk-margin-left uk-label uk-lable-success">AWS</span>
+
+										</div>
+									</div>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+					<div class="uk-margin">
+						<h2>Certifications</h2>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-body">
+								<ul uk-accordion>
+									<li>
+										<a class="uk-accordion-title" href="#">AWS Machine Learning (Exam September)</a>
+										<div class="uk-accordion-content">
+											<p>I've been preparing with Trek10 for the past two months to take the AWS
+												Machine Learning exam. Using Acloud Guru & additional Trek10 lectures,
+												I've gained a solid understanding of Machine Learning's methodology and
+												use cases.</p>
+										</div>
+									</li>
+									<li>
+										<a class="uk-accordion-title" href="#">AWS Solutions Architect Associate - June
+											2020</a>
+										<div class="uk-accordion-content">
+											<p>This past February, I was lucky to become apart of Trek10's Cloud Launch
+												program while finishing my degree at Wabash. This program prepared me
+												for my AWS Solution's architect exam & eventually lead to an internship
+												with Trek10. I was chuffed to score an 889 on the exam!</p>
+										</div>
+									</li>
+									<li>
+										<a class="uk-accordion-title" href="#">AWS Cloud Practitioner</a>
+										<div class="uk-accordion-content">
+											<p>January 2020, as my introductory course into the Cloud, the AWS Cloud
+												Practitioner exam provided the foundational knowledge for my learning to
+												come.</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</aside>
+			</section>
+		</scroll-page>
+			<section id="projects">
+					<br>
+					<center><h2>Projects & Experiences</h2></center>
+					<div class="uk-container">
+						<div class="grid-item"><a href="https://edlijewskibuilders.com/" alt="Construction Website"><img src="assets/fulbright.png" alt="Fulbright"></a></div>
+						<div class="grid-item"><img src="assets/awsExam.png" alt="AWS Certification"></div>
+						<div class="grid-item"><img src="assets/Trek10.png" alt="Trek10 Internship"></div>
+						<div Class="grid-item"><img src="assets/retool.png" alt="Retool"> </div>
+						<div class="grid-item"><img src="assets/boldtechnology.png"></div>
+						<div class="grid-item"><img src="assets/enFocus.png" alt="enFocus Internship"></div>	
+						<div class="grid-item"><img src="assets/CIBE.png"></div>
+						<div class="grid-item app5"><img src="assets/head.png" style="width: 200px; height:200px" alt="Joey Head">
+						<h3><div class="animatedtext" id="app5">
+						<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+						<script src="script.js"></script></h3></div>
+						<div class="grid-item"><img src="assets/vinyasa.png"></div>
+						<div class="grid-item"><img src="assets/wabash.png" alt="Wabash College"></div>
+						<div class="grid-item"><img src="assets/cwpaving.png"></div>
+						<div class="grid-item"><img src="assets/twitter.png"></div>
+						<div class="grid-item"><img src="assets/agente129.png"></div>
+						<div class="grid-item"><a href="https://edlijewskibuilders.com/" alt="Construction Website"><img src="assets/Ed Lijewski Builders.png" alt="AWS Certification"></a></div>
+						<div class="grid-item"><img src="assets/AnneOfisher.png" alt="anneofisher.com"></div>
+						<div class="grid-item"><img src="assets/derekmong.png" alt="derekmong.com"></div>
+						<div class="grid-item"><img src="assets/cloud.png" alt="Cloud Practitioner Certification"></div>
+						<div class="grid-item"><img src="assets/adobe.png" alt="Adobe Creative Cloud Logo"> 
+						</div>	
+						<h3>
+						<div class="grid-item app5"><img src="assets/wave.png" width="150px" height="150px" style="margin-left:5px">
+							<div class="animatedtext" id="app4">
+							<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+						<script src="script.js"></script></div>
+						</div>
+					</section>
+			<section id="contact">
+				<div class="uk-container contact">
+					<div class=" uk-margin-left">
+						<div class="uk-card uk-card-default uk-child-width-2-2" uk-grid>
+							<div class="uk-card-body">
+								<h2>Contact </h2>
+								<h4 style="border-bottom:black solid 3px; padding-bottom:45px;">
+									<center>
+										karczewskijos@gmail.com | +44 7307 981763 | www.linkedin.com/in/joey-karczewski
+									</center>
+								</h4>
+								<form>
+									<label for="name">
+										<h3>First name</h3>
+									</label>
+									<input type="text" id="name" name="fname" style="width:100%" size="100">
+									<label for="email">
+										<h3>Email</h3>
+									</label>
+									<input type="text" id="email" name="email" style="width:100%" size="100">
+									<label for="comment">
+										<h3>Message</h3>
+									</label>
+									<textarea for="comment" id="comment" style="width:100%" rows="6"></textarea>
+
+									<button type="button" class="btn btn-dark btn-secondary btn-lg btn-block"
+										style="margin-top: 10px;">Submit</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</scroll-container>
+	<footer>
+		<script src="visitor_count.js"></script>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,121 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-color: burlywood;
+	font-family: "Century Gothic";
+	overflow-x: hidden;
+	background-image: url(assets/texture.jpg)
+}
+.homesection{
+	padding: 16px;
+	height: 90vh;
+	text-align: center;
+}
+h1 { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	 font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700;
+	 line-height: 26.4px;text-align: center; color:#313639; }
+h3 { color:#313639; font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	 font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; }
+p { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 14px; font-style: normal;
+	 font-variant: normal; font-weight: 400; line-height: 20px; }
+blockquote { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400;
+	 line-height: 18.5714px; }
+.p-2 .my-flex-item{
+text-align: center;
+}
+.animatedtext{
+	width: 400px;
+	display: inline-block;
+	height: 100px;
+}	
+.app{
+	margin-top: 5%;
+}
+.center-stage{
+	overflow: hidden;
+	margin-top: 10%;
+}
+.bottom{
+text-align: center;
+bottom:0;
+border-bottom: black solid 2px;
+}
+.experience{
+	  margin-top: 30px;
+  }
+.skills{
+	  border: black solid 5 px;
+  }
+.uk-container{
+	  margin-top: 5%;
+}
+.uk-card{
+	border-radius: 5px;
+}
+.uk-card:hover{
+	  transform:scale(1.0);
+	  transition: transform .2s ease-in;
+	}
+.test{
+	  margin-top: 50px;
+  }
+#app2{
+	min-height:200px
+}
+.contact{
+	background-image: url(assets/texture.jpg);
+	float: left;
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+
+#navbar{
+	overflow: hidden;
+	text-decoration: none;
+	background-image: url(assets/texture.jpg);
+}
+#navbar:hover{
+	text-decoration: none;
+}
+.align-center {
+	text-align: center;
+ }
+form{
+	font-size:h3;
+}
+input{
+	background-color: transparent;
+	border: 0px solid;
+	border-bottom: 1px solid black;
+	height: 30px;
+	width: 160px;
+	color:black;
+}
+input:focus{
+	outline:none
+}
+textarea:focus{
+	outline:none
+}
+label{
+	margin-top:10px
+}
+
+.grid-item {
+	float:left;
+	width: 200px;	
+	padding-top: 15px;
+	max-height: 200px;
+	padding: 15px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+  }
+.app5{
+	width:600px;
+	display: inline-block;
+	height: 200px;
+
+}
+.grid-item img{
+	border-radius: 5px;
+}
